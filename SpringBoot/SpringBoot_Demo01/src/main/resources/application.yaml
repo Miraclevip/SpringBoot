@@ -1,0 +1,20 @@
+#普通配置
+name: zhangsan
+
+#对象配置
+person:
+  name: zhangsan
+  age: 18
+  address: 上海
+#行内对象配置
+student: {name: zhangsan,age: 20,address: 上海}
+
+#配置数组、集合(基本格式)
+man:
+  - name: zhangsan
+  - age: 18
+  - address: shanghai
+person: []
+
+server:
+  port: 80
